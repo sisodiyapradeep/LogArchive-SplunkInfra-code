@@ -1,9 +1,10 @@
 **S3 SQS Lambda Firehose Method**
-S3-SQS-Lambda-Firehose Method Overview
+
+**S3-SQS-Lambda-Firehose Method Overview**
+
 Many services can send logs to S3 buckets, including internal AWS services such as CloudTrail. Using this method of taking objects (files) with events from S3, sending object metadata to SQS, using a Lambda function to retrieve the object (file) in S3, sending the events to Firehose, then sending them to Splunk can be a cost-effective, scalable, serverless, event-driven way to send events to Splunk.
 
 **S3-SQS-Lambda-Firehose Method Detailed steps:**
-Detailed understanding of how this method works isn't necessary to implement it.
 
 Object is placed into log S3 bucket
 SQS message is sent SQS queue from S3 with object (file) metadata
