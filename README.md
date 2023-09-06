@@ -1,5 +1,4 @@
 **S3 SQS Lambda Firehose Method**
-
 This repo is for individuals and organizations looking to get better visibility, observability, and monitoring in their AWS account or AWS accounts.  There are sets of CloudFormation templates here designed to help get data related to AWS accounts and services to Splunk for analysis and alerting. This code will dpeloy all the resources required to send the Logs data to Splunk.
 
 **S3-SQS-Lambda-Firehose Method Overview**
