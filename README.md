@@ -7,8 +7,8 @@ Many services can send logs to S3 buckets, including internal AWS services such 
 
 **Architecture**
 
-(<img width="641" alt="Splunk_Logs_Ingestion" src="https://github.com/sisodiyapradeep/LogArchive-SplunkInfra-code/assets/51401756/cea3a8b7-0b1d-4b5f-bf82-c6fb51c84555">
-)
+<img width="641" alt="Splunk_Logs_Ingestion" src="https://github.com/sisodiyapradeep/LogArchive-SplunkInfra-code/assets/51401756/cea3a8b7-0b1d-4b5f-bf82-c6fb51c84555">
+
 
 **S3-SQS-Lambda-Firehose Method Detailed steps:**
 
