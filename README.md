@@ -6,6 +6,7 @@ This repo is for individuals and organizations looking to get better visibility,
 Many services can send logs to S3 buckets, including internal AWS services such as CloudTrail. Using this method of taking objects (files) with events from S3, sending object metadata to SQS, using a Lambda function to retrieve the object (file) in S3, sending the events to Firehose, then sending them to Splunk can be a cost-effective, scalable, serverless, event-driven way to send events to Splunk.
 
 **Architecture**
+
 (<img width="641" alt="Splunk_Logs_Ingestion" src="https://github.com/sisodiyapradeep/LogArchive-SplunkInfra-code/assets/51401756/cea3a8b7-0b1d-4b5f-bf82-c6fb51c84555">
 )
 
